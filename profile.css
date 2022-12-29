@@ -1,0 +1,302 @@
+#container{
+    border: 1px solid #000;
+    width: 70%;
+    height: 470px;
+    position: absolute;
+    right: 200px;
+    top: 15%;
+    user-select: none;
+    border-radius: 10px;
+}
+#image{
+    width: 30%;
+    height: 470px;
+    background-color: rgb(204, 204, 204);
+    text-align: center;
+    border-radius: 10px;
+}
+#image img{
+    position: relative;
+    right: 0%;
+    top: 6%;
+    width: 180px;
+    height: 180px;
+    border: #000 1.3px solid;
+    border-radius: 100px;
+    padding: 2px;
+    background-color: #FFF;
+}
+#image img:hover{
+    position: relative;
+    z-index: 1;
+    right: 0%;
+    top: 7%;
+    width: 260px;
+    height: 260px;
+    cursor: pointer;
+    border: #000 1px solid;
+    border-radius: 150px;
+}
+#image span{
+    position: absolute;
+    top: 59%;
+    color: #FFF;
+    font-size: 26px;
+    font-family: 'Bahnschrift';
+    font-weight: 600;
+    width: 250px;
+    right: 71%;
+    text-align: center;
+}
+#infos{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    height: 500px;
+    width: 69.8%;
+}
+hr{
+    width: 70%;
+    position: absolute;
+    top: 8.5%;
+    right: 13%;
+}
+#infos span{
+    font-size: 34px;
+    font-family: 'Bahnschrift';
+    font-weight: 600;
+    position: absolute;
+    right: 33%;
+    top: 1%;
+}
+#centre{
+    position: absolute;
+    top: 12%;
+    width: 97%;
+    height: 430px;
+    right: 10px;
+}
+#centre input{
+    width: 80%;
+    height: 25px;
+    border-radius: 7px;
+    border: #000 1px solid;
+}
+#centre #nom{
+    width: 44%;
+    position: absolute;
+    right: 52%;
+    top: 12%;
+}
+#centre #nm{
+    font-size: 20px;
+    font-family: 'Bahnschrift';
+    position: absolute;
+    top: 4%;
+    right: 84%;
+}
+#centre #pr{
+    font-size: 20px;
+    font-family: 'Bahnschrift';
+    position: absolute;
+    top: 4%;
+    right: 30%;
+}
+#centre #prénom{
+    width: 44%;
+    position: absolute;
+    right: 2%;
+    top: 12%;
+}
+#centre #phone{
+    width: 44%;
+    position: absolute;
+    right: 2%;
+    top: 30.8%;
+}
+#centre #ph{
+    font-size: 20px;
+    font-family: 'Bahnschrift';
+    position: absolute;
+    top: 23%;
+    right: 27%;
+}
+#centre #adresse{
+    width: 44%;
+    position: absolute;
+    right: 52%;
+    top: 30.8%;
+}
+#centre #addr{
+    font-size: 20px;
+    font-family: 'Bahnschrift';
+    position: absolute;
+    top: 23%;
+    right: 75%;
+    width: 120px;
+}
+#centre #email{
+    width: 44%;
+    position: absolute;
+    right: 2%;
+    top: 50%;
+}
+#centre #em{
+    font-size: 20px;
+    font-family: 'Bahnschrift';
+    position: absolute;
+    top: 42.7%;
+    right: 33%;
+}
+#centre #mdp{
+    width: 44%;
+    position: absolute;
+    right: 52%;
+    top: 50%;
+}
+#centre #pss{
+    font-size: 20px;
+    font-family: 'Bahnschrift';
+    position: absolute;
+    top: 42.7%;
+    right: 69%;
+    width: 160px;
+}
+#centre #mdpc{
+    width: 44%;
+    position: absolute;
+    right: 52%;
+    top: 70%;
+}
+#centre #pssc{
+    font-size: 18px;
+    font-family: 'Bahnschrift';
+    position: absolute;
+    top: 63.7%;
+    right: 50%;
+    width: 280px;
+}
+#centre #sauv{
+    font-size: 23px;
+    font-family: 'Bahnschrift';
+    position: absolute;
+    top: 85%;
+    right: 3%;
+    width: 170px;
+    height: 27px;
+    cursor: pointer;
+    background-color: rgb(180, 180, 180);
+}
+#centre #sauv:hover{
+    color: white;
+}
+#centre #pt{
+    width: 30%;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Bahnschrift';
+    position: absolute;
+    top: 75%;
+    right: 108%;
+    background-color: rgb(204, 204, 204);
+    border: none;
+    color: #000;
+}
+.succ{
+    position: absolute;
+    top: 86%;
+    right: 680px;
+    font-size: 18px;
+    font-weight: 400;
+    color:rgba(151, 211, 32, 0.801);
+    font-family: 'Bahnschrift';
+}
+input[type="file"]{
+    display: none;
+}
+#file{
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.623);
+    color: white;
+    border: 1px solid rgb(177, 173, 173);
+    padding: 2px 15px;
+    cursor: pointer;
+    position: absolute;
+    top: 48%;
+    right: 78.7%;
+    border-radius: 10px;
+    font-family: 'Bahnschrift';
+}
+header{
+    height: 45px;
+    background: #FFF;
+}
+.titre{
+    position: absolute; 
+    right:930px;
+    top: 1.4%;
+    width: 200px;
+    height: 65px;
+    font-size: 45px;
+    font-family: 'Gabriola';
+    font-weight: 570;
+    letter-spacing: 1px;
+}
+.logo{
+    position: absolute; 
+    right:960px;
+    top: 0%;
+    width: 250px;
+    height: 55px;
+}
+.decnx{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 2.8%;
+    right: 22px;
+}
+.btn-profil{
+    border: #000 1px solid ;    
+    position: absolute;
+    top: 1.7%;
+    right: 90px;
+    height: 42px;
+    font-size: 25px;
+    width:42px;
+    border-radius:30px ;
+    cursor: pointer;
+    padding: 2px;
+    background-color: rgb(193, 196, 197);
+}
+.pic-profil{
+    border: #000 1px solid ;    
+    position: absolute;
+    top: 1.7%;
+    right: 90px;
+    height: 42px;
+    font-size: 25px;
+    width:42px;
+    border-radius:30px ;
+    cursor: pointer;
+    padding: 2px;
+}
+.compte{
+    position: absolute; 
+    right:150px;
+    top: 3%;
+    width:110px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    background: #FFF;
+    font-family: 'Bahnschrift';
+    cursor: pointer;
+    border-radius: 15px;
+}
+.compte:hover{
+    border-bottom: #8d8e91 1.5px solid;
+    border-radius: 5px;
+}

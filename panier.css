@@ -1,0 +1,219 @@
+#panier{
+    position: absolute;
+    top: 3.6%;
+    width: 130px;
+    right: 270px;
+    font-size:16px;
+    font-family: 'Bahnschrift';
+    background-color: #fff;
+    text-align: center;
+}
+#panier:hover{
+    border-bottom: #8d8e91 1.5px solid;
+    border-radius: 5px;
+}
+#panier button{
+    text-decoration: none;
+    border: none;
+    color: #000;
+    font-size:17px;
+    font-family: 'Bahnschrift';
+    background: none;
+}
+#panier button .fa-shopping-basket{
+    text-decoration: none;
+    color: #000;
+    font-size:15px;
+}
+#panier button .panier-count{
+    text-decoration: none;
+    border: none;
+    color: #000;
+    font-size:15px;
+    font-family: 'Bahnschrift';
+} 
+header{
+    height: 45px;
+    background: #FFF;
+}
+.logo{
+    position: absolute; 
+    right:960px;
+    top: 0%;
+    width: 250px;
+    height: 55px;
+}
+.decnx{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 2.8%;
+    right: 22px;
+}
+.btn-profil{
+    border: #000 1px solid ;    
+    position: absolute;
+    top: 1.7%;
+    right: 90px;
+    height: 42px;
+    font-size: 25px;
+    width:42px;
+    border-radius:30px ;
+    cursor: pointer;
+    padding: 2px;
+    background-color: rgb(193, 196, 197);
+}
+.pic-profil{
+    border: #000 1px solid ;    
+    position: absolute;
+    top: 1.7%;
+    right: 90px;
+    height: 42px;
+    font-size: 25px;
+    width:42px;
+    border-radius:30px ;
+    cursor: pointer;
+    padding: 2px;
+}
+.compte{
+    position: absolute; 
+    right:175px;
+    top: 3%;
+    width:80px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    background: #FFF;
+    font-family: 'Bahnschrift';
+    cursor: pointer;
+    border-radius: 15px;
+}
+.compte:hover{
+    border-bottom: #8d8e91 1.5px solid;
+    border-radius: 5px;
+}
+#details{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0,0.2);
+    width: 380px;
+    height: 130px;
+    position: fixed;
+    right: 10px;
+    top: 13%;
+    border-radius: 10px;
+}
+.details-titre{
+    position: relative;
+    right: -10px;
+    top: 4%;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Perpetua';
+}
+.titre-hr{
+    width: 97%;
+}
+.class-details{
+    position: relative;
+    top: -6%;
+}
+.prix-titre{
+    position: absolute;
+    right: 205px;
+    top: 60%;
+    font-size: 15px;
+    font-weight: 600;
+    width: 170px;
+    font-family: 'Perpetua';
+}
+.frais-titre{
+    position: absolute;
+    right: 265px;
+    top: 200%;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Perpetua';
+}
+.total-titre{
+    position: absolute;
+    right: 330px;
+    top: 353%;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Perpetua';
+}
+.hr1{
+    position: absolute;
+    right:3px;
+    top: 273%;
+    width: 97%;
+}
+.prix-txt{
+    position: absolute;
+    right: 70px;
+    top: 60%;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Perpetua';
+}
+.frais-txt{
+    position: absolute;
+    right: 70px;
+    top: 200%;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Perpetua';
+}
+.total-txt{
+    position: absolute;
+    right: 70px;
+    top: 353%;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Perpetua';
+}
+.pan-vide{
+    position: absolute;
+    top: 20%;
+    font-size: 18px;
+    color: red;
+}
+.succés{
+    color: rgba(82, 224, 136, 0.829);
+    font-size: 20px;
+    font-weight: 600;
+    position: fixed;
+    top: 37%;
+    right: 40px;
+}
+.echec{
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    position: fixed;
+    top: 37%;
+    right: 40px;
+}
+.uplode{
+    width: 115px;
+    font-size: 25px;
+    font-family: 'Bahnschrift';
+    position: fixed;
+    top: 42%;
+    right: 40px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(16, 190, 83, 0.829);
+    color: white;
+}
+.uplode .fa-uplod{
+    font-size: 17px;
+}
+.tele{
+    position: fixed;
+    top: 43.4%;
+    right: 168px;
+    font-size: 16px;
+    font-family: 'Bahnschrift';
+}

@@ -1,0 +1,128 @@
+body{
+    background:none;
+    background-image:url(bg/ecommerce-2140603__480.webp);
+    background-position:5%;
+    background-size:111%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0%;
+}
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:2%;
+    background-position: center;
+    margin-bottom: 2%;
+    margin-right: 10%;
+    margin-left: 60%;
+}
+i{
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+    right: -5px;
+}
+form {
+    width:100%;
+    padding: 25px;
+    background: #707070d2;
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px  rgba(209, 209, 209, 0.5);
+    height: 470px;
+}
+#container h1{
+    color: #FFF;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+input {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 0.5px solid #ccc;
+    box-sizing: border-box;
+    background-color:#E7E7E7;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+label{
+    color: #FFF;
+    font-size: 18px;
+    position: relative;
+    right: -7px;
+}
+input[type=submit],input[type=reset] {
+    background-color: #2c2a2a;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    border-radius: 10px;
+}
+input[type=submit]:hover ,input[type=reset]:hover{
+    background-color:#cfcdcdb9;
+    color:  #2c2a2a;
+    border: 1px solid #464747;
+}
+#nom{
+    width: 46%;
+}
+#prénom{
+    width: 15.6%;
+    position: absolute;
+    top: 22.9%;
+    right:90px;
+}
+#pr{
+    position: absolute;
+    top: 20%;
+    right: 202px;
+}
+.icon1{
+    position: absolute;
+    top: 20.5%;
+    right: 270px;
+}
+.err{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(255, 0, 0, 0.623);
+    font-weight: 400;
+    right: 170px;
+    font-family: 'Bahnschrift';
+    position: absolute;
+    top: 86%;
+}
+.succ{
+    position: absolute;
+    top: 86%;
+    right: 90px;
+    font-size: 18px;
+    font-weight: 400;
+    color:rgba(153, 205, 50, 0.801);
+    font-family: 'Bahnschrift';
+}
+.conn{
+    position: absolute;
+    top: 1%;
+    font-size: 19px;
+    font-family: 'Bahnschrift';
+    border: none;
+    background: #504f4f7a;
+    width: 100px;
+    right: 1175px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.conn:hover{
+    background-color:rgb(204, 204, 204) ;
+}
+.conn a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,140 @@
+body{
+    user-select: none;
+    background-image:url(bg/ecommerce-2140603__480.webp);
+    /* background-image:url(photos/Produits/backg/pexels-pixabay-509922.jpg); */
+    background-size:111%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0%;
+}
+#container{
+    position: absolute;
+    top: -12%;
+    width:350px;
+    right: 730px;
+    margin:10% 10% 10% 25% ;
+    background-position: center;
+}
+form {
+    width:90%;
+    height: 430px;
+    padding: 30px;
+    background: #2525258e;
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px  rgba(19, 18, 18, 0.13);
+}
+
+.form1 {
+    width:90%;
+    height: 350px;
+    padding: 30px;
+    background: #2525258e;
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px  rgba(19, 18, 18, 0.13);
+}
+#centre{
+    position: absolute;
+    top: 28%;
+}
+#centre1{
+    position: absolute;
+    top: 33%;
+}
+#container h1{
+    color: #FFF;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    font-family: 'Bahnschrift';
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    font-family: 'Bahnschrift';
+}
+label{
+    color: rgb(216, 216, 216);
+    font-size: 20px;
+    font-family: 'Bahnschrift';
+}
+input[type=submit] {
+    background-color: #07814e;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    width: 75%;
+    border-radius: 50px;
+    font-size: 15px;
+    right: -39px;
+    position: relative;
+    font-family: 'Bahnschrift';
+}
+input[type=submit]:hover {
+    background-color:#dbdbdbd2;
+    color:#07814e;
+    border: 1px solid #464747;
+}
+#lien1{
+    color: #FFF;
+    position: absolute; top: 84%; right:183px;
+    
+}
+hr{
+    color: white;
+}
+i{
+    font-family: 'Bahnschrift';
+    width: 26px;
+    font-size: 19px;
+    float: left;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.678);
+}
+.inscription{
+    background-color: #1b6fbd;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    width: 57%;
+    border-radius: 50px; 
+    position: absolute;
+    top: 70%;
+    right: 40px;
+    text-align: center;
+}
+.inscription button{
+    color: white;
+    text-decoration: none;
+    font-size: 15px; 
+    border: none;
+    background: none; 
+    font-family: 'Bahnschrift';
+}
+.inscription:hover{
+    background-color: #dbdbdbd2;
+    color: #1b6fbd;
+    border: 1px solid #464747;
+}
+.inscription:hover button{
+    color: #1b6fbd;
+}
+.err{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(255, 0, 0, 0.726);
+    font-weight: 400;
+    right: 860px;
+    font-family: 'Bahnschrift';
+    position: absolute;
+    top: 88%;
+    z-index: 1;
+}

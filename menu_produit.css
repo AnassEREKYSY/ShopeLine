@@ -1,0 +1,218 @@
+#panier{
+    position: absolute;
+    top: 3.6%;
+    width: 130px;
+    right: 290px;
+    font-size:16px;
+    font-family: 'Bahnschrift';
+    background-color: #fff;
+    text-align: center;
+}
+#panier:hover{
+    border-bottom: #8d8e91 1.5px solid;
+    border-radius: 5px;
+}
+#panier a{
+    text-decoration: none;
+    border: none;
+    color: #000;
+    font-size:17px;
+    font-family: 'Bahnschrift';
+    background: none;
+}
+#panier a .fa-shopping-basket{
+    text-decoration: none;
+    color: #000;
+    font-size:15px;
+}
+#panier a .panier-count{
+    text-decoration: none;
+    border: none;
+    color: #000;
+    font-size:15px;
+    font-family: 'Bahnschrift';
+} 
+#cmd{
+    position: absolute;
+    top: 3.6%;
+    width: 170px;
+    right: 470px;
+    font-size:16px;
+    font-family: 'Bahnschrift';
+    background-color: #fff;
+    text-align: center;
+}
+#cmd:hover{
+    border-bottom: #8d8e91 1.5px solid;
+    border-radius: 5px;
+}
+#cmd a{
+    text-decoration: none;
+    border: none;
+    color: #000;
+    font-size:17px;
+    font-family: 'Bahnschrift';
+    background: none;
+}
+#cmd a .fa-shipping-fast{
+    text-decoration: none;
+    color: #000;
+    font-size:17px;
+}
+#cmd a .cmd-count{
+    text-decoration: none;
+    border: none;
+    color: #000;
+    font-size:15px;
+    font-family: 'Bahnschrift';
+}
+header{
+    height: 45px;
+    background: #FFF;
+}
+.logo{
+    position: absolute; 
+    right:960px;
+    top: 0%;
+    width: 250px;
+    height: 55px;
+}
+.decnx{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 2.8%;
+    right: 22px;
+}
+.btn-profil{
+    border: #000 1px solid ;    
+    position: absolute;
+    top: 1.7%;
+    right: 90px;
+    height: 42px;
+    font-size: 25px;
+    width:42px;
+    border-radius:30px ;
+    cursor: pointer;
+    padding: 2px;
+    background-color: rgb(193, 196, 197);
+}
+.pic-profil{
+    border: #000 1px solid ;    
+    position: absolute;
+    top: 1.7%;
+    right: 90px;
+    height: 42px;
+    font-size: 25px;
+    width:42px;
+    border-radius:30px ;
+    cursor: pointer;
+    padding: 2px;
+}
+.compte{
+    position: absolute; 
+    right:190px;
+    top: 3%;
+    width:70px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    background: #FFF;
+    font-family: 'Bahnschrift';
+    cursor: pointer;
+    border-radius: 15px;
+}
+.compte:hover{
+    border-bottom: #8d8e91 1.5px solid;
+    border-radius: 5px;
+}
+.produit-6{
+    position: absolute;
+    top: 13%;
+    width: 190px;
+    right: 1070px;
+    font-size:25px;
+    font-family: 'Bahnschrift';
+    background-color: #fff;
+}
+.hr-6{
+    position: absolute;
+    top: 17%;
+    width: 60%;
+}
+.pan-vide{
+    position: absolute;
+    top: 20%;
+    font-size: 18px;
+    color: red;
+}
+    .recherche{
+        position: absolute;
+        top: 117%;
+        width:580px;
+        right:350px;
+        background-color:#f8f8f8fa;
+        border-radius: 10px;
+        display: block;
+        z-index: 1;
+    }
+    .chercher-form{
+        width:100%;
+    }
+    .chercher-form input{
+        background:none;
+        height:30px;
+        width:100%;
+        text-align:left;
+        border:none;
+        border-bottom:solid 1px rgb(148, 148, 148);
+        cursor:pointer;
+        font-size: 14px;
+        font-family: 'Bahnschrift';
+    }
+    .chercher-form input:hover{
+        background-color: rgba(221, 221, 221, 0.582) ;
+        font-size: 16px;
+    }
+    #chercher-produit{
+        position: absolute;
+        top: 11.5%;
+        width: 600px;
+        height: 25px;
+        right: 335px;
+        border: #000 1px solid;
+        border-radius: 5px;
+    }
+    #chercher-h{
+        right: 75.5%;
+        position: absolute;
+        font-size: 16px;
+        border-radius: 26px;
+        border: rgb(94, 92, 92) 1.2px solid;
+        cursor: pointer;
+        background-color: rgba(245, 245, 245, 0.726);
+        width: 80px;
+        height: 25px;
+        top: 12%;
+    }
+    #barre-haute{
+        width: 99.5%;
+        height: 28px;
+        position: absolute;
+        top: 10%;
+        right: 2px;
+        background: #FFF;
+    }
+    .fa-user-plus{
+        position: absolute;
+        top: 2.5%;
+        right: 50px;
+        height: 33px;
+        font-size: 25px;
+        width:80px;
+        background: #FFF;
+        cursor: pointer;
+        border: none;
+        color: #000000;
+    }

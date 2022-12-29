@@ -1,0 +1,153 @@
+header{
+    height: 45px;
+    background: #FFF;
+}
+.titre{
+    position: absolute; 
+    right:930px;
+    top: 1.4%;
+    width: 200px;
+    height: 65px;
+    font-size: 45px;
+    font-family: 'Gabriola';
+    font-weight: 570;
+    letter-spacing: 1px;
+}
+.logo{
+    position: absolute; 
+    right:960px;
+    top: 0%;
+    width: 250px;
+    height: 55px;
+}
+.decnx{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 2.8%;
+    right: 22px;
+}
+.btn-profil{
+    border: #000 1px solid ;    
+    position: absolute;
+    top: 1.7%;
+    right: 90px;
+    height: 42px;
+    font-size: 25px;
+    width:42px;
+    border-radius:30px ;
+    cursor: pointer;
+    padding: 2px;
+    background-color: rgb(193, 196, 197);
+}
+.pic-profil{
+    border: #000 1px solid ;    
+    position: absolute;
+    top: 1.7%;
+    right: 90px;
+    height: 42px;
+    font-size: 25px;
+    width:42px;
+    border-radius:30px ;
+    cursor: pointer;
+    padding: 2px;
+}
+.aide{
+    position: absolute;
+    top: 3%;
+    right: 460px;
+    width:60px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    background: #FFF;
+    font-family: 'Bahnschrift';
+    cursor: pointer;
+    border-radius: 15px;
+}
+.aide:hover{
+    border-bottom: #8d8e91 1.5px solid;
+    border-radius: 5px;
+}
+.ab{
+    position: absolute;
+    top: 3.1%;
+    right: 550px;
+    width:60px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    background: #FFF;
+    font-family: 'Bahnschrift';
+    cursor: pointer;
+    border-radius: 15px;
+}
+.ab:hover{
+    border-bottom: #8d8e91 1.5px solid;
+    border-radius: 5px;
+}
+.contacter-nous{
+    position: absolute;
+    top: 3%;
+    right: 300px;
+    height: 30px;
+    width:140px;
+    font-size: 16px;
+    border: none;
+    background: #FFF;
+    border-radius: 15px;
+    font-family: 'Bahnschrift';
+    cursor: pointer;
+}
+.contacter-nous:hover{
+    border-bottom: #8d8e91 1.5px solid;
+    border-radius: 5px;
+}
+.home{
+    position: absolute;
+    top: 3%;
+    right: 210px;
+    height: 30px;
+    width:70px;
+    font-size: 16px;
+    border: none;
+    background: #FFF;
+    border-radius: 15px;
+    font-family: 'Bahnschrift';
+    cursor: pointer;
+}
+.home:hover{
+    border-bottom: #8d8e91 1.5px solid;
+    border-radius: 5px;
+}
+.fa-user-plus{
+    position: absolute;
+    top: 2.5%;
+    right: 50px;
+    height: 33px;
+    font-size: 25px;
+    width:80px;
+    background: #FFF;
+    cursor: pointer;
+    border: none;
+    color: #000000;
+}
+.err{
+    position: absolute;
+    top: 20%;
+    font-size: 18px;
+    color: red;
+}
+#divp{
+    width: 800px;
+    height: 40px;
+    position: absolute;
+    top: 14%;
+    right: 510px;
+    text-align: center;
+}
+#divp span{
+    font-size: 23px;
+    color: #c52828;
+    font-family: 'Bahnschrift';
+}

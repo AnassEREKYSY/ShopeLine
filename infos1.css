@@ -1,0 +1,250 @@
+header{
+    height: 45px;
+    background: #FFF;
+}
+.titre{
+    position: absolute; 
+    right:930px;
+    top: 1.4%;
+    width: 200px;
+    height: 65px;
+    font-size: 45px;
+    font-family: 'Gabriola';
+    font-weight: 570;
+    letter-spacing: 1px;
+}
+.logo{
+    position: absolute; 
+    right:960px;
+    top: 0%;
+    width: 250px;
+    height: 55px;
+}
+.aide{
+    position: absolute;
+    top: 3%;
+    right: 460px;
+    width:60px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    background: #FFF;
+    font-family: 'Bahnschrift';
+    cursor: pointer;
+    border-radius: 15px;
+}
+.aide:hover{
+    border-bottom: #8d8e91 1.5px solid;
+    border-radius: 5px;
+}
+.contacter-nous{
+    position: absolute;
+    top: 3%;
+    right: 300px;
+    height: 30px;
+    width:140px;
+    font-size: 16px;
+    border: none;
+    background: #FFF;
+    border-radius: 15px;
+    font-family: 'Bahnschrift';
+    cursor: pointer;
+}
+.contacter-nous:hover{
+    border-bottom: #8d8e91 1.5px solid;
+    border-radius: 5px;
+}
+.compte{
+    position: absolute; 
+    right:170px;
+    top: 3%;
+    width:110px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    background: #FFF;
+    font-family: 'Bahnschrift';
+    cursor: pointer;
+    border-radius: 15px;
+}
+.compte:hover{
+    border-bottom: #8d8e91 1.5px solid;
+    border-radius: 5px;
+}
+.fa-user-plus{
+    position: absolute;
+    top: 2.5%;
+    right: 50px;
+    height: 33px;
+    font-size: 25px;
+    width:80px;
+    background: #FFF;
+    cursor: pointer;
+    border: none;
+    color: #000000;
+}
+iframe{
+    position: fixed;
+    top: 20%;
+    right: 10px;
+    width: 550px;
+    height: 400px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.137);
+    border-radius: 10px;
+}
+.spn{
+    font-family: 'Bahnschrift';
+    font-size: 19px;
+    position: fixed;
+    top: 14%;
+    right: 140px;
+}
+.hr{
+    width: 20%;
+    position: fixed;
+    top: 17%;
+    right: 122px;
+}
+#sec1{
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.137);
+    width: 650px;
+    height: 460px;
+    position: absolute;
+    top: 20%;
+    background-color: rgb(219, 219, 216);
+}
+#sec1 .ct{
+    font-family: 'Bahnschrift';
+    font-size: 35px;
+    position: absolute;
+    top: 3%;
+    right:15px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #b3b3b3;
+    width: 95%;
+}
+#sec1 p{
+    font-size: 20px;
+    font-family: 'Bahnschrift';
+    text-align: center;
+    position: absolute;
+    top: 30%;
+}
+#sec1 .ph{
+    font-size: 25px;
+    font-family: 'Bahnschrift';
+    text-align: center;
+    position: absolute;
+    top: 77%;
+    right: 50px;
+    cursor: pointer;
+}
+#sec1 .em{
+    font-size: 22px;
+    font-family: 'Bahnschrift';
+    text-align: center;
+    position: absolute;
+    top: 77.4%;
+    right: 380px;
+    cursor: pointer;
+}
+#sec1 .add{
+    font-size: 15px;
+    font-family: 'Bahnschrift';
+    text-align: center;
+    position: absolute;
+    top: 92.4%;
+    right: 240px;
+    cursor: pointer;
+}
+#sec2{
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.137);
+    width: 650px;
+    height: 460px;
+    position: absolute;
+    top: 105%;
+    background-color: rgb(219, 219, 216);
+}
+#sec2 .ct{
+    font-family: 'Bahnschrift';
+    font-size: 35px;
+    position: absolute;
+    top: 3%;
+    right:15px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #b3b3b3;
+    width: 95%;
+}
+#sec2 div{
+    font-size: 18px;
+    font-family: 'Bahnschrift';
+    position: absolute;
+    width: 95%;
+    right: 10px;
+    top: 24%;
+}
+#sec2 section{
+    font-size: 17px;
+    font-family: 'Bahnschrift';
+    position: absolute;
+    width: 95%;
+    right: 17px;
+    top: 114%;
+}
+#sec3{
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.137);
+    width: 650px;
+    height: 300px;
+    position: absolute;
+    top: 190%;
+    background-color: rgb(219, 219, 216);
+}
+#sec3 .ct{
+    font-family: 'Bahnschrift';
+    font-size: 35px;
+    position: absolute;
+    top: 3%;
+    right:15px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #b3b3b3;
+    width: 95%;
+}
+#sec3 div{
+    font-size: 18px;
+    font-family: 'Bahnschrift';
+    position: absolute;
+    width: 95%;
+    right: 10px;
+    top: 42%;
+}
+#sec5{
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.137);
+    width: 650px;
+    height: 200px;
+    position: absolute;
+    top: 249%;
+    background-color: rgb(219, 219, 216);
+}
+#sec5 .ct{
+    font-family: 'Bahnschrift';
+    font-size: 35px;
+    position: absolute;
+    top: 3%;
+    right:15px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #b3b3b3;
+    width: 95%;
+}
+#sec5 div{
+    font-size: 18px;
+    font-family: 'Bahnschrift';
+    position: absolute;
+    width: 95%;
+    right: 10px;
+    top: 55%;
+}

@@ -1,0 +1,270 @@
+.echec{
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    top: 37%;
+    right: 40px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bahnschrift';
+}
+#diveimg{
+    position:absolute;
+    width: 320px;
+    height: 380px;
+    top: 15%;
+    right: 870px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0,0.16);
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+.big-img{
+    position: absolute;
+    top: 5%;
+    right: 5px;
+    width: 310px;
+    height: 300px;
+}
+.small-img-div{
+    position: absolute;
+    width: 310px;
+    height: 100px;
+    top: 82%;
+    right: 66%;
+}
+.small-img-div div{
+    width: 130px;
+    height: 90px;
+    cursor: pointer;
+    display: inline;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0,0.19);
+} 
+.small-img-div .small-img1{
+    position: relative;
+    top: 5%;
+} 
+.small-img-div .small-img2{
+    position: relative;
+    right: -18px;
+    top: 5%;
+} 
+.small-img-div .small-img3{
+    position: relative;
+    right: -40px;
+    top: 5%;
+} 
+.small-container{
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+.col-2{
+    position: absolute;
+    flex-basis: 50%;
+    min-width: 600px;
+    right: 18%;
+    top: 19%;
+}
+.col-2 h1{
+    font-family: 'Bahnschrift';
+    letter-spacing: 1px;
+    font-size: 40px;
+    line-height: 30px;
+    margin: 25px 0;
+}
+.single-product h4{
+    font-family: 'Bahnschrift';
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    right: -1%;
+}
+.col-2 strike{
+    font-family: 'Bahnschrift';
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: 500;
+    position: relative;
+    color: #FF523B;
+    right: -1%;
+}
+.col-2 strike h4{
+    font-family: 'Bahnschrift';
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    color: #FF523B;
+    right: -1%;
+}
+
+.single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border:  1px solid #FF523B;
+}
+input:focus{
+    outline: none;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+.single-product .fa{
+    color: #ff523B;
+    margin-left: 10px;
+}
+p{
+    color: #555;
+}
+.btn{
+    display: inline-block;
+    color: black;
+    background-color:white;
+    margin: 30px 0;
+    border-radius: 30px;
+    border:solid 2px;
+    cursor: pointer;
+    font-family: 'Bahnschrift';
+    font-size: 22px;
+    font-weight: 700;
+    width: 140px;
+    height: 35px;
+    text-align: center;
+}
+.btn:hover{
+    background-color: #9fad6a;
+    color: white;
+}
+header{
+    height: 45px;
+    background: #FFF;
+}
+.logo{
+    position: absolute; 
+    right:960px;
+    top: 0%;
+    width: 250px;
+    height: 55px;
+}
+.decnx{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 2.8%;
+    right: 22px;
+}
+.btn-profil{
+    border: #000 1px solid ;    
+    position: absolute;
+    top: 1.7%;
+    right: 90px;
+    height: 42px;
+    font-size: 25px;
+    width:42px;
+    border-radius:30px ;
+    cursor: pointer;
+    padding: 2px;
+    background-color: rgb(193, 196, 197);
+}
+.pic-profil{
+    border: #000 1px solid ;    
+    position: absolute;
+    top: 1.7%;
+    right: 90px;
+    height: 42px;
+    font-size: 25px;
+    width:42px;
+    border-radius:30px ;
+    cursor: pointer;
+    padding: 2px;
+}
+.compte{
+    position: absolute; 
+    right:180px;
+    top: 3%;
+    width:80px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    background: #FFF;
+    font-family: 'Bahnschrift';
+    cursor: pointer;
+    border-radius: 15px;
+}
+.compte:hover{
+    border-bottom: #8d8e91 1.5px solid;
+    border-radius: 5px;
+}
+.fa-user-plus{
+    position: absolute;
+    top: 2.5%;
+    right: 50px;
+    height: 33px;
+    font-size: 25px;
+    width:80px;
+    background: #FFF;
+    cursor: pointer;
+    border: none;
+    color: #000000;
+}
+.panier-class{
+    position: absolute;
+    top: 3.8%;
+    right: 280px;
+    width: 130px;
+    height: 26px;
+    text-align: center;
+    cursor: pointer;
+}
+.panier-class:hover{
+    border-bottom: #8d8e91 1.5px solid;
+    border-radius: 5px;
+}
+.panier-class a {
+    text-decoration: none;
+    position: relative;
+    border: none;
+    background: none;
+    top: 6%;
+    text-align: center;
+}
+.panier-class a span{
+    font-size: 16px;
+    font-family: 'Bahnschrift';
+    letter-spacing: 1px;
+    color: #222538;
+    position: relative;
+    top: 1%;
+    right: 0px;
+}
+.panier-class a  .fa-shopping-cart{
+    position: relative;
+    right: 12px;
+    font-size: 13px;
+    color: #252525;
+    cursor: pointer;
+}
+.panier-class a  .count{
+    font-size: 16px;
+    right: -2px;
+    color: #252525;
+    cursor: pointer;
+}
+strike{
+    font-size: 17px;
+}
